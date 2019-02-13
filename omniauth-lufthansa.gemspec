@@ -23,6 +23,6 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency 'jwt', '>= 1.5'
-  s.add_runtime_dependency 'omniauth-oauth2', '~> 1.5'
+  s.add_runtime_dependency 'jwt', '~> 1.5'
+  s.add_runtime_dependency 'omniauth-oauth2', '~> 1.6'
 end
